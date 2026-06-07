@@ -1,0 +1,26 @@
+/* Write your code here: */
+
+/* Use a group selector to change the h1 and h2 color to "blueviolet" */
+h1,h2{
+    color:blueviolet;
+}
+
+/* Use the child selector to change the first paragraph color to "firebrick" */
+.box> p{
+    color:firebrick;
+}
+
+/* Use the descendant selector to color te list item elements blue*/
+.box li{
+    color:blue;
+}
+
+/* Use chaining to color the 2nd and 3rd list item "seagreen"*/
+li.done{
+    color:seagreen;
+}
+
+
+ul p .done{
+    font-size:0.5rem;
+}

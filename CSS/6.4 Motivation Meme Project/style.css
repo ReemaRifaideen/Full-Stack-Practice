@@ -1,0 +1,24 @@
+html{
+    background-color: black;
+}
+
+h1{
+    color:white;
+    font-family:"Libre Baskerville",'Playfair+Display';
+    text-transform: uppercase;
+    text-align:center;
+    font-size:2rem;
+}
+
+.motivation-img{
+    border:5px solid white;
+    width:100%;
+}
+
+.poster{
+    margin-top:70px;
+    width:50%;
+    margin-left:25%;
+    color:white;
+    text-align:center;
+}
